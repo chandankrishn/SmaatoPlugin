@@ -104,7 +104,6 @@ function setOptions() {
 
     console.log("Set Options: ",smaato.bannerAdId);
     window.plugins.Smaato.setOptions({
-        publisherId: smaato.publisherId,
         interstitialAdId: smaato.interstitialAdId,
         bannerAdId: smaato.bannerAdId,
         rewardedAdId: smaato.rewardedAdId
